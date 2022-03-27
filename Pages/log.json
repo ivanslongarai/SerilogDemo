@@ -1,0 +1,36 @@
+{
+  "Timestamp": "2022-03-27T19:23:38.7066495-03:00",
+  "Level": "Information",
+  "MessageTemplate": "Application starting up",
+  "Properties": {
+    "MachineName": "DESKTOP-VF2HIDE",
+    "ProcessId": 15808
+  }
+}
+
+{
+  "Timestamp": "2022-03-27T19:23:39.8477865-03:00",
+  "Level": "Information",
+  "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+  "Properties": {
+    "RequestMethod": "GET",
+    "RequestPath": "/",
+    "StatusCode": 200,
+    "Elapsed": 188.1356,
+    "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+    "ActionId": "d70f48ee-d568-4fe3-a953-f3da0ea1a26f",
+    "ActionName": "/Index",
+    "RequestId": "0HMGG81OMM5VP:00000001",
+    "ConnectionId": "0HMGG81OMM5VP",
+    "MachineName": "DESKTOP-VF2HIDE",
+    "ProcessId": 15808
+  },
+  "Renderings": {
+    "Elapsed": [
+      {
+        "Format": "0.0000",
+        "Rendering": "188.1356"
+      }
+    ]
+  }
+}
